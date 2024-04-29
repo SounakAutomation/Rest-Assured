@@ -1,0 +1,6 @@
+restfull\booking\DeleteBookingTest.class
+restfull\booking\GetBookingIdTest.class
+restfull\booking\GetBookingIdsTest.class
+restfull\booking\PostCreateBookingTest.class
+restfull\booking\PutUpdateBookingTest.class
+restfull\booking\PatchPartialUpdateBookingTest.class

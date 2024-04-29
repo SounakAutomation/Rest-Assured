@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="21" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-12T00:30:55 IST" name="Command line suite" finished-at="2023-09-12T00:32:13 IST" duration-ms="77983">
+    <groups>
+    </groups>
+    <test started-at="2023-09-12T00:30:55 IST" name="Command line test" finished-at="2023-09-12T00:32:13 IST" duration-ms="77983">
+      <class name="restfull.booking.PatchPartialUpdateBookingTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:restfull.booking.PatchPartialUpdateBookingTest@2f490758]" started-at="2023-09-12T00:31:32 IST" name="initialize" finished-at="2023-09-12T00:31:32 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:restfull.booking.PatchPartialUpdateBookingTest@2f490758]" started-at="2023-09-12T00:31:32 IST" name="initializeRestClient" finished-at="2023-09-12T00:31:34 IST" duration-ms="1840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void restfull.booking.PatchPartialUpdateBookingTest.PatchPartialUpdateBookingTest01_WhenValidRequst_ShouldReturn200()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:restfull.booking.PatchPartialUpdateBookingTest@2f490758]" started-at="2023-09-12T00:31:34 IST" name="beforeTest" finished-at="2023-09-12T00:31:44 IST" duration-ms="9788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="PatchPartialUpdateBookingTest01_WhenValidRequst_ShouldReturn200()[pri:0, instance:restfull.booking.PatchPartialUpdateBookingTest@2f490758]" started-at="2023-09-12T00:31:44 IST" name="PatchPartialUpdateBookingTest01_WhenValidRequst_ShouldReturn200" finished-at="2023-09-12T00:31:47 IST" duration-ms="2591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PatchPartialUpdateBookingTest01_WhenValidRequst_ShouldReturn200 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restfull.booking.PatchPartialUpdateBookingTest@2f490758]" started-at="2023-09-12T00:31:47 IST" name="getResult" finished-at="2023-09-12T00:31:47 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PatchPartialUpdateBookingTest01_WhenValidRequst_ShouldReturn200 status=SUCCESS method=PatchPartialUpdateBookingTest.PatchPartialUpdateBookingTest01_WhenValidRequst_ShouldReturn200()[pri:0, instance:restfull.booking.PatchPartialUpdateBookingTest@2f490758] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- restfull.booking.PatchPartialUpdateBookingTest -->
+      <class name="restfull.booking.DeleteBookingTest">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:restfull.booking.DeleteBookingTest@70a9f84e]" started-at="2023-09-12T00:30:55 IST" name="BeforeSuite" finished-at="2023-09-12T00:30:55 IST" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:restfull.booking.DeleteBookingTest@70a9f84e]" started-at="2023-09-12T00:30:55 IST" name="initialize" finished-at="2023-09-12T00:30:55 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:restfull.booking.DeleteBookingTest@70a9f84e]" started-at="2023-09-12T00:30:55 IST" name="initializeRestClient" finished-at="2023-09-12T00:31:00 IST" duration-ms="4456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void restfull.booking.DeleteBookingTest.DeleteBookingTest01_WhenValidRequst_ShouldReturn200()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:restfull.booking.DeleteBookingTest@70a9f84e]" started-at="2023-09-12T00:31:00 IST" name="beforeTest" finished-at="2023-09-12T00:31:05 IST" duration-ms="4606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="DeleteBookingTest01_WhenValidRequst_ShouldReturn200()[pri:0, instance:restfull.booking.DeleteBookingTest@70a9f84e]" started-at="2023-09-12T00:31:05 IST" name="DeleteBookingTest01_WhenValidRequst_ShouldReturn200" finished-at="2023-09-12T00:31:08 IST" duration-ms="3555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteBookingTest01_WhenValidRequst_ShouldReturn200 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restfull.booking.DeleteBookingTest@70a9f84e]" started-at="2023-09-12T00:31:08 IST" name="getResult" finished-at="2023-09-12T00:31:08 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteBookingTest01_WhenValidRequst_ShouldReturn200 status=SUCCESS method=DeleteBookingTest.DeleteBookingTest01_WhenValidRequst_ShouldReturn200()[pri:0, instance:restfull.booking.DeleteBookingTest@70a9f84e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:restfull.booking.DeleteBookingTest@70a9f84e]" started-at="2023-09-12T00:31:08 IST" name="initializeRestClient" finished-at="2023-09-12T00:31:10 IST" duration-ms="1593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void restfull.booking.DeleteBookingTest.DeleteBookingTest02_WhenInvalidRequst_ShouldReturn400()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:restfull.booking.DeleteBookingTest@70a9f84e]" started-at="2023-09-12T00:31:10 IST" name="beforeTest" finished-at="2023-09-12T00:31:12 IST" duration-ms="2076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="DeleteBookingTest02_WhenInvalidRequst_ShouldReturn400()[pri:0, instance:restfull.booking.DeleteBookingTest@70a9f84e]" started-at="2023-09-12T00:31:12 IST" name="DeleteBookingTest02_WhenInvalidRequst_ShouldReturn400" finished-at="2023-09-12T00:31:13 IST" duration-ms="1607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteBookingTest02_WhenInvalidRequst_ShouldReturn400 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restfull.booking.DeleteBookingTest@70a9f84e]" started-at="2023-09-12T00:31:13 IST" name="getResult" finished-at="2023-09-12T00:31:13 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteBookingTest02_WhenInvalidRequst_ShouldReturn400 status=SUCCESS method=DeleteBookingTest.DeleteBookingTest02_WhenInvalidRequst_ShouldReturn400()[pri:0, instance:restfull.booking.DeleteBookingTest@70a9f84e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:restfull.booking.DeleteBookingTest@70a9f84e]" started-at="2023-09-12T00:32:13 IST" name="tearDown" finished-at="2023-09-12T00:32:14 IST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- restfull.booking.DeleteBookingTest -->
+      <class name="restfull.booking.PutUpdateBookingTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:restfull.booking.PutUpdateBookingTest@166fa74d]" started-at="2023-09-12T00:31:58 IST" name="initialize" finished-at="2023-09-12T00:31:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:restfull.booking.PutUpdateBookingTest@166fa74d]" started-at="2023-09-12T00:31:58 IST" name="initializeRestClient" finished-at="2023-09-12T00:31:59 IST" duration-ms="1805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void restfull.booking.PutUpdateBookingTest.PutUpdateBookingTest01_WhenValidRequst_ShouldReturn200()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:restfull.booking.PutUpdateBookingTest@166fa74d]" started-at="2023-09-12T00:31:59 IST" name="beforeTest" finished-at="2023-09-12T00:32:04 IST" duration-ms="4521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="PutUpdateBookingTest01_WhenValidRequst_ShouldReturn200()[pri:0, instance:restfull.booking.PutUpdateBookingTest@166fa74d]" started-at="2023-09-12T00:32:04 IST" name="PutUpdateBookingTest01_WhenValidRequst_ShouldReturn200" finished-at="2023-09-12T00:32:06 IST" duration-ms="1852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PutUpdateBookingTest01_WhenValidRequst_ShouldReturn200 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restfull.booking.PutUpdateBookingTest@166fa74d]" started-at="2023-09-12T00:32:06 IST" name="getResult" finished-at="2023-09-12T00:32:06 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PutUpdateBookingTest01_WhenValidRequst_ShouldReturn200 status=SUCCESS method=PutUpdateBookingTest.PutUpdateBookingTest01_WhenValidRequst_ShouldReturn200()[pri:0, instance:restfull.booking.PutUpdateBookingTest@166fa74d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:restfull.booking.PutUpdateBookingTest@166fa74d]" started-at="2023-09-12T00:32:06 IST" name="initializeRestClient" finished-at="2023-09-12T00:32:08 IST" duration-ms="1801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void restfull.booking.PutUpdateBookingTest.PutUpdateBookingTest02_WhenTokenInvalid_ShouldReturn403()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:restfull.booking.PutUpdateBookingTest@166fa74d]" started-at="2023-09-12T00:32:08 IST" name="beforeTest" finished-at="2023-09-12T00:32:12 IST" duration-ms="4117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="PutUpdateBookingTest02_WhenTokenInvalid_ShouldReturn403()[pri:0, instance:restfull.booking.PutUpdateBookingTest@166fa74d]" started-at="2023-09-12T00:32:12 IST" name="PutUpdateBookingTest02_WhenTokenInvalid_ShouldReturn403" finished-at="2023-09-12T00:32:13 IST" duration-ms="1768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PutUpdateBookingTest02_WhenTokenInvalid_ShouldReturn403 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restfull.booking.PutUpdateBookingTest@166fa74d]" started-at="2023-09-12T00:32:13 IST" name="getResult" finished-at="2023-09-12T00:32:13 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PutUpdateBookingTest02_WhenTokenInvalid_ShouldReturn403 status=SUCCESS method=PutUpdateBookingTest.PutUpdateBookingTest02_WhenTokenInvalid_ShouldReturn403()[pri:0, instance:restfull.booking.PutUpdateBookingTest@166fa74d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- restfull.booking.PutUpdateBookingTest -->
+      <class name="restfull.booking.GetBookingIdTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:restfull.booking.GetBookingIdTest@130f889]" started-at="2023-09-12T00:30:55 IST" name="initialize" finished-at="2023-09-12T00:30:55 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:restfull.booking.GetBookingIdTest@130f889]" started-at="2023-09-12T00:31:18 IST" name="initializeRestClient" finished-at="2023-09-12T00:31:20 IST" duration-ms="2072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void restfull.booking.GetBookingIdTest.GetBookingIdTest01_WhenValidRequst_ShouldReturn200()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:restfull.booking.GetBookingIdTest@130f889]" started-at="2023-09-12T00:31:20 IST" name="beforeTest" finished-at="2023-09-12T00:31:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="GetBookingIdTest01_WhenValidRequst_ShouldReturn200()[pri:0, instance:restfull.booking.GetBookingIdTest@130f889]" started-at="2023-09-12T00:31:20 IST" name="GetBookingIdTest01_WhenValidRequst_ShouldReturn200" finished-at="2023-09-12T00:31:23 IST" duration-ms="3599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetBookingIdTest01_WhenValidRequst_ShouldReturn200 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restfull.booking.GetBookingIdTest@130f889]" started-at="2023-09-12T00:31:23 IST" name="getResult" finished-at="2023-09-12T00:31:23 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetBookingIdTest01_WhenValidRequst_ShouldReturn200 status=SUCCESS method=GetBookingIdTest.GetBookingIdTest01_WhenValidRequst_ShouldReturn200()[pri:0, instance:restfull.booking.GetBookingIdTest@130f889] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:restfull.booking.GetBookingIdTest@130f889]" started-at="2023-09-12T00:31:23 IST" name="initializeRestClient" finished-at="2023-09-12T00:31:25 IST" duration-ms="1779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void restfull.booking.GetBookingIdTest.GetBookingIdTest02_WhenValidRequst_ValidateField()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:restfull.booking.GetBookingIdTest@130f889]" started-at="2023-09-12T00:31:25 IST" name="beforeTest" finished-at="2023-09-12T00:31:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="GetBookingIdTest02_WhenValidRequst_ValidateField()[pri:0, instance:restfull.booking.GetBookingIdTest@130f889]" started-at="2023-09-12T00:31:25 IST" name="GetBookingIdTest02_WhenValidRequst_ValidateField" finished-at="2023-09-12T00:31:28 IST" duration-ms="3225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetBookingIdTest02_WhenValidRequst_ValidateField -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restfull.booking.GetBookingIdTest@130f889]" started-at="2023-09-12T00:31:28 IST" name="getResult" finished-at="2023-09-12T00:31:28 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetBookingIdTest02_WhenValidRequst_ValidateField status=SUCCESS method=GetBookingIdTest.GetBookingIdTest02_WhenValidRequst_ValidateField()[pri:0, instance:restfull.booking.GetBookingIdTest@130f889] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:restfull.booking.GetBookingIdTest@130f889]" started-at="2023-09-12T00:31:28 IST" name="initializeRestClient" finished-at="2023-09-12T00:31:30 IST" duration-ms="2151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void restfull.booking.GetBookingIdTest.GetBookingIdTest03_WhenInvalidRequst_shouldreturn404()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:restfull.booking.GetBookingIdTest@130f889]" started-at="2023-09-12T00:31:30 IST" name="beforeTest" finished-at="2023-09-12T00:31:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="GetBookingIdTest03_WhenInvalidRequst_shouldreturn404()[pri:0, instance:restfull.booking.GetBookingIdTest@130f889]" started-at="2023-09-12T00:31:30 IST" name="GetBookingIdTest03_WhenInvalidRequst_shouldreturn404" finished-at="2023-09-12T00:31:32 IST" duration-ms="1931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetBookingIdTest03_WhenInvalidRequst_shouldreturn404 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restfull.booking.GetBookingIdTest@130f889]" started-at="2023-09-12T00:31:32 IST" name="getResult" finished-at="2023-09-12T00:31:32 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetBookingIdTest03_WhenInvalidRequst_shouldreturn404 status=SUCCESS method=GetBookingIdTest.GetBookingIdTest03_WhenInvalidRequst_shouldreturn404()[pri:0, instance:restfull.booking.GetBookingIdTest@130f889] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- restfull.booking.GetBookingIdTest -->
+      <class name="restfull.booking.PostCreateBookingTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:restfull.booking.PostCreateBookingTest@101df177]" started-at="2023-09-12T00:31:47 IST" name="initialize" finished-at="2023-09-12T00:31:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:restfull.booking.PostCreateBookingTest@101df177]" started-at="2023-09-12T00:31:47 IST" name="initializeRestClient" finished-at="2023-09-12T00:31:50 IST" duration-ms="3281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void restfull.booking.PostCreateBookingTest.PostCreateBookingTest01_WhenValidRequst_ShouldReturn200()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:restfull.booking.PostCreateBookingTest@101df177]" started-at="2023-09-12T00:31:50 IST" name="beforeTest" finished-at="2023-09-12T00:31:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="PostCreateBookingTest01_WhenValidRequst_ShouldReturn200()[pri:0, instance:restfull.booking.PostCreateBookingTest@101df177]" started-at="2023-09-12T00:31:50 IST" name="PostCreateBookingTest01_WhenValidRequst_ShouldReturn200" finished-at="2023-09-12T00:31:53 IST" duration-ms="2970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostCreateBookingTest01_WhenValidRequst_ShouldReturn200 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restfull.booking.PostCreateBookingTest@101df177]" started-at="2023-09-12T00:31:53 IST" name="getResult" finished-at="2023-09-12T00:31:53 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PostCreateBookingTest01_WhenValidRequst_ShouldReturn200 status=SUCCESS method=PostCreateBookingTest.PostCreateBookingTest01_WhenValidRequst_ShouldReturn200()[pri:0, instance:restfull.booking.PostCreateBookingTest@101df177] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:restfull.booking.PostCreateBookingTest@101df177]" started-at="2023-09-12T00:31:53 IST" name="initializeRestClient" finished-at="2023-09-12T00:31:55 IST" duration-ms="1961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void restfull.booking.PostCreateBookingTest.PostCreateBookingTest02_WhenValidRequst_ValidateResponseValue()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:restfull.booking.PostCreateBookingTest@101df177]" started-at="2023-09-12T00:31:55 IST" name="beforeTest" finished-at="2023-09-12T00:31:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="PostCreateBookingTest02_WhenValidRequst_ValidateResponseValue()[pri:0, instance:restfull.booking.PostCreateBookingTest@101df177]" started-at="2023-09-12T00:31:55 IST" name="PostCreateBookingTest02_WhenValidRequst_ValidateResponseValue" finished-at="2023-09-12T00:31:58 IST" duration-ms="2789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostCreateBookingTest02_WhenValidRequst_ValidateResponseValue -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restfull.booking.PostCreateBookingTest@101df177]" started-at="2023-09-12T00:31:58 IST" name="getResult" finished-at="2023-09-12T00:31:58 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PostCreateBookingTest02_WhenValidRequst_ValidateResponseValue status=SUCCESS method=PostCreateBookingTest.PostCreateBookingTest02_WhenValidRequst_ValidateResponseValue()[pri:0, instance:restfull.booking.PostCreateBookingTest@101df177] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- restfull.booking.PostCreateBookingTest -->
+      <class name="restfull.booking.GetBookingIdsTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:restfull.booking.GetBookingIdsTest@1188e820]" started-at="2023-09-12T00:31:13 IST" name="initialize" finished-at="2023-09-12T00:31:13 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:restfull.booking.GetBookingIdsTest@1188e820]" started-at="2023-09-12T00:31:13 IST" name="initializeRestClient" finished-at="2023-09-12T00:31:15 IST" duration-ms="1618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void restfull.booking.GetBookingIdsTest.GetBookingIdsTest01_WhenValidRequst_ShouldReturn200()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:restfull.booking.GetBookingIdsTest@1188e820]" started-at="2023-09-12T00:31:15 IST" name="beforeTest" finished-at="2023-09-12T00:31:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="GetBookingIdsTest01_WhenValidRequst_ShouldReturn200()[pri:0, instance:restfull.booking.GetBookingIdsTest@1188e820]" started-at="2023-09-12T00:31:15 IST" name="GetBookingIdsTest01_WhenValidRequst_ShouldReturn200" finished-at="2023-09-12T00:31:18 IST" duration-ms="2523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetBookingIdsTest01_WhenValidRequst_ShouldReturn200 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restfull.booking.GetBookingIdsTest@1188e820]" started-at="2023-09-12T00:31:18 IST" name="getResult" finished-at="2023-09-12T00:31:18 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetBookingIdsTest01_WhenValidRequst_ShouldReturn200 status=SUCCESS method=GetBookingIdsTest.GetBookingIdsTest01_WhenValidRequst_ShouldReturn200()[pri:0, instance:restfull.booking.GetBookingIdsTest@1188e820] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- restfull.booking.GetBookingIdsTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
