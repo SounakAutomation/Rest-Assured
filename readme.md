@@ -1,4 +1,4 @@
-#Rest Assured Assignment Information
+#Rest Assured ProjectInformation
 
 This is API Automation test for Restful-Booker website. This can be used to test functionality & feature of Restful-Booker website
 
